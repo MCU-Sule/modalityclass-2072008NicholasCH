@@ -1,0 +1,23 @@
+2072008
+NicholasCH
+---------------------------
++    - means Question     +
++    * means Answer       +
+---------------------------
+
+- how to prevent null from closing window
+* Dengan menambahkan IF kita bisa memeriksa data yang diinput user apakah null atau tidak jika window di close dengan
+sengaja atau tidak. Karena jika window di close, maka data yang dikembalikan akan berisi null
+- how to know if a modal succeed or fail
+* 
+- how do we sort listview by name
+* 
+- how do we sort listview by price
+* 
+- how to show sub menu (context menu) on right click on list view
+* 
+- how to delete data from right click menu
+* 
+- if you want user to be able to order from menu what file needed
+to be modified /added (explain those file) ?
+* 

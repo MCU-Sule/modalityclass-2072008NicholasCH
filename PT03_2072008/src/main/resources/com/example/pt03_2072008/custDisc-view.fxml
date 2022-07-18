@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.example.pt03_2072008.controller.discController"
+>
+   <top>
+      <VBox alignment="TOP_RIGHT" prefHeight="41.0" prefWidth="304.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Tambah Discount">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+               <padding>
+                  <Insets bottom="5.0" right="10.0" top="5.0" />
+               </padding>
+            </Label>
+            <Line endX="200.5" startX="-100.0" strokeWidth="3.0" style="-fx-stroke-dash-array: 5;" />
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="128.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="Jumlah Discount:">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Label>
+            <TextField fx:id="custDiskon">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </TextField>
+            <Button mnemonicParsing="false" onAction="#custDiskon" prefHeight="25.0" prefWidth="298.0" text="Tambah Discount">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="5.0" right="5.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
