@@ -8,16 +8,27 @@ NicholasCH
 - how to prevent null from closing window
 * Dengan menambahkan IF kita bisa memeriksa data yang diinput user apakah null atau tidak jika window di close dengan
 sengaja atau tidak. Karena jika window di close, maka data yang dikembalikan akan berisi null
+
 - how to know if a modal succeed or fail
-* 
+* Ketika kita close atau menekan tombol x pada window modal, maka data yang akan dikirimkan dari modal tersebut berupa data null, maka dengan cara persoalan
+pertama (dengan menggunakan IF) we'll know if the modal successfully worked or failed. kita dapat mengetahuinya dari data yang dikirimkan modal tersebut
+apakah data itu berisikan data atau null. Jika data berisi maka modal tersebut sukses, berkebalikan dengan data tersebut bernilai null yang berarti modalnya gagal.
+
 - how do we sort listview by name
 * 
+
 - how do we sort listview by price
 * 
+
 - how to show sub menu (context menu) on right click on list view
-* 
+* caranya kita tinggal menambahkan contextMenu pada program yang kita buat. ContextMenu ini kita tempelkan pada listView yang sudah kita miliki. Dengan contextMenu
+ini kita dapat menambahkan menu-menu tambahan seperti delete data yang kita select menggunakan mouse.
+
 - how to delete data from right click menu
-* 
+* dari contextMenu kita perlu menambahkan getSelectionModel().getSelectionIndex() untuk mengambil indeks dari observabelList yang kita miliki lalu dengan memanfaatkan
+cotnextMenu kita bisa menghapus data yang ada. Tidak hanya bisa menghapus data, tapi kita juga bisa melakukan banyak hal seperti update data atau sebagainya dengan cara
+menambahkan fungsi sesuai dengan kebutuhan.  
+
 - if you want user to be able to order from menu what file needed
 to be modified /added (explain those file) ?
-* 
+* file yang harus ditambah merupakan file order pada model, order pada controller, tampilan UI order pada fxml. pada modelOrder kita membuat 
