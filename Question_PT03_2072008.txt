@@ -31,4 +31,7 @@ menambahkan fungsi sesuai dengan kebutuhan.
 
 - if you want user to be able to order from menu what file needed
 to be modified /added (explain those file) ?
-* file yang harus ditambah merupakan file order pada model, order pada controller, tampilan UI order pada fxml. pada modelOrder kita membuat 
+* file yang harus ditambah merupakan file order pada model, order pada controller, tampilan UI order pada fxml. pada modelOrder kita membuat model dengan
+variabel seperti IdOrder, Nama Barang; jumlah; harga (bisa banyak), tanggal oder. pada controller kita harus membuat tampilan UI dapat bekerja apabila ada
+input order baru dari user dimana orderController akan mengatur semua alur yang dilalui bila ada order baru yang masuk.
+order FXML akan membuat tampilan UI yang akan digunakan user untuk dapat menginput order baru berdasarkan stock yang ada pada menu. 
