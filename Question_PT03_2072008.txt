@@ -15,10 +15,10 @@ pertama (dengan menggunakan IF) we'll know if the modal successfully worked or f
 apakah data itu berisikan data atau null. Jika data berisi maka modal tersebut sukses, berkebalikan dengan data tersebut bernilai null yang berarti modalnya gagal.
 
 - how do we sort listview by name
-* 
+* sebenarnya untuk sorting ini ada fungsi sortedList namun dari yang saya baca dan saya coba mengenai sortedList ini saya masih bingung dan gagal.
 
 - how do we sort listview by price
-* 
+* sebenarnya untuk sorting ini ada fungsi sortedList namun dari yang saya baca dan saya coba mengenai sortedList ini saya masih bingung dan gagal.
 
 - how to show sub menu (context menu) on right click on list view
 * caranya kita tinggal menambahkan contextMenu pada program yang kita buat. ContextMenu ini kita tempelkan pada listView yang sudah kita miliki. Dengan contextMenu
