@@ -15,10 +15,13 @@ pertama (dengan menggunakan IF) we'll know if the modal successfully worked or f
 apakah data itu berisikan data atau null. Jika data berisi maka modal tersebut sukses, berkebalikan dengan data tersebut bernilai null yang berarti modalnya gagal.
 
 - how do we sort listview by name
-* sebenarnya untuk sorting ini ada fungsi sortedList namun dari yang saya baca dan saya coba mengenai sortedList ini saya masih bingung dan gagal.
+* Dengan menggunakan fungsi sort kita bisa melakukan sorting, namun sebelum kita melakukan sorting
+dengan menggunakan FXCollections.sort kita harus membuat sebuah comparator yang nantinya akan
+digunakan sebagai pembanding pada parameter FXCollections.sort. untuk kasus sorting by name,
+maka pada comparator kita akan mengisi parameter comparingnya dengan list_yang_kita_miliki::getter_dari_apa_yang_ingin_kita_bandingkan.
 
 - how do we sort listview by price
-* sebenarnya untuk sorting ini ada fungsi sortedList namun dari yang saya baca dan saya coba mengenai sortedList ini saya masih bingung dan gagal.
+* caranya hampir sama dengan cara pada soal sebelumnya namun karena yang jadi pembanding merupakan harga (float) maka pada saat comparingnya kita harus menambahkan kelas double. 
 
 - how to show sub menu (context menu) on right click on list view
 * caranya kita tinggal menambahkan contextMenu pada program yang kita buat. ContextMenu ini kita tempelkan pada listView yang sudah kita miliki. Dengan contextMenu
